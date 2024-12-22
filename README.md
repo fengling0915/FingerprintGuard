@@ -1,5 +1,5 @@
 # FingerprintGuard
-[中文](https://github.com/fengling0915/FingerprintGuard/README-ZH.md)
+[中文](https://github.com/fengling0915/FingerprintGuard/blob/main/README-ZH.md)
 
 ## Project Introduction
 

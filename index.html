@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser Fingerprint Detector</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #5c67f2;
+        }
+        button {
+            background-color: #5c67f2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #4a54e1;
+        }
+        #fingerprintResult {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Browser Fingerprint Detector</h1>
+        <button id="generateFingerprint">Generate Fingerprint</button>
+        <p id="fingerprintResult"></p>
+    </div>
+    <script>
+        document.getElementById('generateFingerprint').addEventListener('click', function() {
+            // 模拟FingerprintJS的行为
+            const mockFingerprint = 'mock-fingerprint-value';
+            document.getElementById('fingerprintResult').textContent = 'Your browser fingerprint is: ' + mockFingerprint;
+        });
+    </script>
+</body>
+</html>

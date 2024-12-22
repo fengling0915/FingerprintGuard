@@ -23,11 +23,11 @@ FingerprintGuard is an open-source project designed to help users detect and und
 1. Clone the project to your local machine:
 
 ```
-Translated Text:
+
 ```
 git clone https://github.com/fengling0915/FingerprintGuard.git
 ```
-Translated Text:
+
 ```
 
 2. Open the `index.html` file to preview it in the browser.
